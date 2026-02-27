@@ -1,9 +1,9 @@
-# Quantium Chip Category Sales Analysis
+# Quantium Chip Category Sales Analysis - Forage Project
 
 ## Overview
-This project analyzes transactional retail data from the Quantium chip category to identify the product attributes and customer segments that drive total sales. The analysis is framed from a category management perspective and includes an executive summary followed by a full technical appendix.
+This project analyzes transactional retail data from the Quantium chip category to identify the product attributes and customer segments that drive total sales. The analysis is framed from a category management perspective and includes an executive summary followed by a full technical appendix. Additionally, we conduct an uplift analysis to evaluate the impact of a new store layout on sales performance in trial stores compared to control stores.
 
-Interactive report (with visualizations):
+Interactive reports (with visualizations):
 https://brecarissaw.github.io/quantium-chip-market-analysis/
 
 
@@ -26,12 +26,13 @@ Maintain strong availability of high-performing brands and hero SKUs.
 Focus category planning on customer segments that consistently drive sales.
 
 ## Repository Contents
-data/                         # Raw datasets
-docs/                         # Interactive HTML report
+data/                               # Raw datasets
+docs/                               # Interactive HTML reports
 notebooks/
-    quantium_analysis.ipynb   # Full technical analysis (outputs cleared)
-README.md                     # Project overview
-requirements.txt              # Python dependencies
+    quantium_analysis.ipynb         # Full technical analysis (outputs cleared)
+    quantium_uplift_analysis.ipynb  # Uplift analysis of store layout trial
+README.md                           # Project overview
+requirements.txt                    # Python dependencies
 
 ## Notes
 
